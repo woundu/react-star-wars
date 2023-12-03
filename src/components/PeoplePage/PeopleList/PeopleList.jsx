@@ -1,4 +1,6 @@
 import  styles from './PeopleList.module.css';
+import { ReactPropTypes } from 'react';
+
 const PeopleList =({people})=> {
     return (
         <ul className={styles.list__container}>
