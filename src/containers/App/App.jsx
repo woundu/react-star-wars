@@ -1,12 +1,14 @@
 
+import PeoplePage from '../PeoplePage/PeoplePage';
 import './App.css';
+
 
 
 
 const App =()=> {
   return (
-    <div className="App">
-      HI STAR WARS
+    <div>
+      <PeoplePage/>
     </div>
   );
 }
